@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AD2D91F15F7783700B099CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD2D91E15F7783700B099CF /* UIKit.framework */; };
+		4AD2D92115F7783700B099CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD2D92015F7783700B099CF /* Foundation.framework */; };
+		4AD2D92315F7783700B099CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD2D92215F7783700B099CF /* CoreGraphics.framework */; };
+		4AD2D92915F7783700B099CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2D92715F7783700B099CF /* InfoPlist.strings */; };
+		4AD2D92B15F7783700B099CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2D92A15F7783700B099CF /* main.m */; };
+		4AD2D92F15F7783700B099CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2D92E15F7783700B099CF /* AppDelegate.m */; };
+		4AD2D93215F7783700B099CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2D93115F7783700B099CF /* ViewController.m */; };
+		4AD2D93515F7783700B099CF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2D93315F7783700B099CF /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AD2D91A15F7783700B099CF /* PixerV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixerV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD2D91E15F7783700B099CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AD2D92015F7783700B099CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AD2D92215F7783700B099CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AD2D92615F7783700B099CF /* PixerV1-Info.plist */ = {isa = PBXFileReference; path = "PixerV1-Info.plist"; sourceTree = "<group>"; };
+		4AD2D92815F7783700B099CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AD2D92A15F7783700B099CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AD2D92C15F7783700B099CF /* PixerV1-Prefix.pch */ = {isa = PBXFileReference; path = "PixerV1-Prefix.pch"; sourceTree = "<group>"; };
+		4AD2D92D15F7783700B099CF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AD2D92E15F7783700B099CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AD2D93015F7783700B099CF /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4AD2D93115F7783700B099CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AD2D93415F7783700B099CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AD2D91715F7783700B099CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD2D91F15F7783700B099CF /* UIKit.framework in Frameworks */,
+				4AD2D92115F7783700B099CF /* Foundation.framework in Frameworks */,
+				4AD2D92315F7783700B099CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AD2D90F15F7783600B099CF = {
+			isa = PBXGroup;
+			children = (
+				4AD2D92415F7783700B099CF /* PixerV1 */,
+				4AD2D91D15F7783700B099CF /* Frameworks */,
+				4AD2D91B15F7783700B099CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AD2D91B15F7783700B099CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2D91A15F7783700B099CF /* PixerV1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AD2D91D15F7783700B099CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2D91E15F7783700B099CF /* UIKit.framework */,
+				4AD2D92015F7783700B099CF /* Foundation.framework */,
+				4AD2D92215F7783700B099CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AD2D92415F7783700B099CF /* PixerV1 */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2D92D15F7783700B099CF /* AppDelegate.h */,
+				4AD2D92E15F7783700B099CF /* AppDelegate.m */,
+				4AD2D93015F7783700B099CF /* ViewController.h */,
+				4AD2D93115F7783700B099CF /* ViewController.m */,
+				4AD2D93315F7783700B099CF /* ViewController.xib */,
+				4AD2D92515F7783700B099CF /* Supporting Files */,
+			);
+			path = PixerV1;
+			sourceTree = "<group>";
+		};
+		4AD2D92515F7783700B099CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD2D92615F7783700B099CF /* PixerV1-Info.plist */,
+				4AD2D92715F7783700B099CF /* InfoPlist.strings */,
+				4AD2D92A15F7783700B099CF /* main.m */,
+				4AD2D92C15F7783700B099CF /* PixerV1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AD2D91915F7783700B099CF /* PixerV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AD2D93815F7783700B099CF /* Build configuration list for PBXNativeTarget "PixerV1" */;
+			buildPhases = (
+				4AD2D91615F7783700B099CF /* Sources */,
+				4AD2D91715F7783700B099CF /* Frameworks */,
+				4AD2D91815F7783700B099CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixerV1;
+			productName = PixerV1;
+			productReference = 4AD2D91A15F7783700B099CF /* PixerV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AD2D91115F7783600B099CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4AD2D91415F7783600B099CF /* Build configuration list for PBXProject "PixerV1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AD2D90F15F7783600B099CF;
+			productRefGroup = 4AD2D91B15F7783700B099CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AD2D91915F7783700B099CF /* PixerV1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AD2D91815F7783700B099CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD2D92915F7783700B099CF /* InfoPlist.strings in Resources */,
+				4AD2D93515F7783700B099CF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AD2D91615F7783700B099CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AD2D92B15F7783700B099CF /* main.m in Sources */,
+				4AD2D92F15F7783700B099CF /* AppDelegate.m in Sources */,
+				4AD2D93215F7783700B099CF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AD2D92715F7783700B099CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD2D92815F7783700B099CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4AD2D93315F7783700B099CF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AD2D93415F7783700B099CF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AD2D93615F7783700B099CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AD2D93715F7783700B099CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AD2D93915F7783700B099CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixerV1/PixerV1-Prefix.pch";
+				INFOPLIST_FILE = "PixerV1/PixerV1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4AD2D93A15F7783700B099CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PixerV1/PixerV1-Prefix.pch";
+				INFOPLIST_FILE = "PixerV1/PixerV1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AD2D91415F7783600B099CF /* Build configuration list for PBXProject "PixerV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD2D93615F7783700B099CF /* Debug */,
+				4AD2D93715F7783700B099CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AD2D93815F7783700B099CF /* Build configuration list for PBXNativeTarget "PixerV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD2D93915F7783700B099CF /* Debug */,
+				4AD2D93A15F7783700B099CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AD2D91115F7783600B099CF /* Project object */;
+}
