@@ -11,26 +11,32 @@
 #import "ViewController.h"
 
 @implementation AppDelegate
-
+@synthesize navcontroller;
 @synthesize window = _window;
-@synthesize viewController = _viewController;
-
-- (void)dealloc
-{
-    [_window release];
-    [_viewController release];
-    [super dealloc];
-}
+@synthesize splashController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    
+    
+    
+
+
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+
+    self.splashController=[[splashController alloc]initWithNibName:@"splashController" bundle:nil];
+    navcontroller=[[UINavigationController alloc]initWithRootViewController:self.splashController];
+    self.window.rootViewController = self.navcontroller;
     [self.window makeKeyAndVisible];
+    
+
     return YES;
 }
+
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

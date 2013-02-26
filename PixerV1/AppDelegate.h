@@ -7,13 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "archivedetailview.h"
+#import "openingscreen.h"
+#import "splashController.h"
+#import "postCamera.h"
 
 @class ViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    CLLocationManager *locationManager;
+}
+
+
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (nonatomic,strong) splashController *splashController;
+
+@property (nonatomic ,strong ) UINavigationController *navcontroller;
 
 @end
